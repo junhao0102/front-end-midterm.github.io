@@ -12,15 +12,16 @@ body {
 	top: 20px;
 	width: 10%;
 	position: relative;
-
 }
 
 #pic2 {
 	top: 150px;
-	width: 100%;
+	left:5%;
+	width: 90%;
 	position: absolute;
+
 	z-index: 1;
-	
+	height: 500px;;	
 }
 
 .header a {
@@ -52,7 +53,7 @@ body {
 }
 #Lbutton {
 	position:absolute ;
-	top:450px;
+	top:375px;
 	left: 10px;
 	color: white;
 	background-color: gray;
@@ -86,7 +87,7 @@ body {
 
 #Rbutton {
 	position: absolute;
-	top: 450px;
+	top: 375px;
 	right: 10px;
 	color: white;
 	background-color: gray;
@@ -104,4 +105,81 @@ body {
 	text-align: center;
 	z-index: 3;
 }
-
+#film{
+	position: relative;
+	top: 1000px;
+	left: 100px;	
+}
+.choosehero{
+	position: relative;
+	top: 650px;
+	width: 80%;
+	left: 10%;
+}
+.choosehero h2{
+	font-size: 100px;
+	margin: 0px;
+	top: 250px;;
+	left: 5%;
+	position: relative;
+	font-family: Arial, Helvetica, sans-serif;
+	z-index: 3;
+	color: white;
+}
+.choosehero p{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: large;
+	position: relative;
+	left: 5%;
+	top: 250px;;
+	margin-top: 0px;
+	z-index: 2;
+	color: white;
+	font-size: 30px;
+}
+.choosehero img{
+	position: relative;
+	top: -200px;
+	width:100%;
+	height: 500px;
+	z-index: 1;
+	opacity: 0.93;
+	border-radius:100px ;
+}
+.chooseroad{
+	position: relative;
+	top: 550px;
+	width: 80%;
+	left: 10%;
+}
+.chooseroad h2{
+	font-size: 100px;
+	margin: 0px;
+	top: 250px;;
+	left: 5%;
+	position: relative;
+	font-family: Arial, Helvetica, sans-serif;
+	z-index: 3;
+	color: white;
+	
+}
+.chooseroad p{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: large;
+	position: relative;
+	left: 5%;
+	top: 250px;;
+	margin-top: 0px;
+	z-index: 2;
+	color: white;
+	font-size: 30px;
+}
+.chooseroad img{
+	position: absolute;
+	top: 0px;
+	width:100%;
+	height: 500px;
+	z-index: 1;
+	opacity: 0.93;
+	border-radius:100px ;
+}
